@@ -14,3 +14,4 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
 
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES('BootCamp  HTML', 'https://cdn.slidesharecdn.com/ss_thumbnails/htmlcss-161121095145-thumbnail-4.jpg', 'https://www.ecollege.ie/wp-content/uploads/2020/02/Course_Featured_Security.jpg');
+INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES('BootCamp  CSS', 'https://cdn.slidesharecdn.com/ss_thumbnails/htmlcss-161121095145-thumbnail-4.jpg', 'https://www.ecollege.ie/wp-content/uploads/2020/02/Course_Featured_Security.jpg');
