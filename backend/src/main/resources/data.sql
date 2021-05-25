@@ -15,3 +15,6 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
 
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES('BootCamp  HTML', 'https://cdn.slidesharecdn.com/ss_thumbnails/htmlcss-161121095145-thumbnail-4.jpg', 'https://www.ecollege.ie/wp-content/uploads/2020/02/Course_Featured_Security.jpg');
 INSERT INTO tb_course (name, img_Uri, img_Gray_Uri) VALUES('BootCamp  CSS', 'https://cdn.slidesharecdn.com/ss_thumbnails/htmlcss-161121095145-thumbnail-4.jpg', 'https://www.ecollege.ie/wp-content/uploads/2020/02/Course_Featured_Security.jpg');
+
+INSERT INTO tb_offer ( edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2021-05-30T03:00Z', TIMESTAMP WITH TIME ZONE '2022-05-30T03:00Z',1);  
+INSERT INTO tb_offer ( edition, start_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2021-05-30T03:00Z', TIMESTAMP WITH TIME ZONE '2022-05-30T03:00Z',1);
