@@ -87,6 +87,10 @@ public class Offer implements Serializable {
 		this.course = course;
 	}
 	
+	public Set<Resource> getResources() {
+		return resources;
+	}
+
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -111,9 +115,5 @@ public class Offer implements Serializable {
 			return false;
 		return true;
 	}
-	
-	
-	
-	
 	
 }
