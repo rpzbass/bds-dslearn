@@ -30,6 +30,8 @@ public class Section implements Serializable {
 	
 	/*uma associação recursiva, uma seção pode ter outra seção no papel de prerequisito */
 	
+	@ManyToOne
+	@JoinColumn(name = "prerequisite_id")
 	private Section prerequisite; 
 	
 	public Section() {
