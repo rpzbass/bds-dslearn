@@ -10,8 +10,12 @@ import com.devsuperior.dslearnbds.entities.Offer;
 import com.devsuperior.dslearnbds.entities.User;
 
 
-
-@Embeddable  /* anotation utilizada para informar uma subdivisão da classe pai como atributos da mesma */
+  			 /* anotation utilizada para informar uma subdivisão 
+				da classe pai como atributos da mesma 
+ 				essa classe não será tratada como entidade por isso 
+ 				recebe essa annotation @Embeddable 
+ 			 */
+@Embeddable
 public class EnrollmentPK implements Serializable {
 
 	private static final long serialVersionUID = 1L;
